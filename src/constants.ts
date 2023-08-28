@@ -4,7 +4,7 @@ export const CANVAS_HEIGHT = 500;
 export const UNITE_H = 25;
 export const UNITE_W = 30;
 
-export const DELAY = 100;
+export const DELAY = 30;
 
 export const rows = 20;
 export const columns = 20;
