@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="app.css" />
   </head>
   <body>
-    <canvas id="canvas1"></canvas>
+    <div id="details">
+      <h1>Algorithm-visualizer</h1>
+      <button id="reset-blocks">Reset Blocks</button>
+      <div>
+        <label for="select"> Select algorithm </label>
+        <select id="select"></select>
+        <article id="article"></article>
+      </div>
+    </div>
+    <div id="visualizer"><canvas id="canvas1"></canvas></div>
 
     <script type="module" src="build/bundle.js"></script>
   </body>
